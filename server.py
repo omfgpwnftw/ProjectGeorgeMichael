@@ -22,9 +22,9 @@ def relay(relaynum=0):
     elif relaynum =='1': 
         time.sleep(2)             #used to give enough time for google home to reply before starting music
         mixer.music.play()        #PLAY MUSIC
-        time.sleep(13)
+        time.sleep(13)            #Wait for saxophone to start
         GPIO.output(17,GPIO.HIGH) #GPIO ON
-        time.sleep(25)
+        time.sleep(25)            #Wait for end of song
         GPIO.output(17,GPIO.LOW)  #GPIO OFF
         return 'TIme to feel sexy'
 
