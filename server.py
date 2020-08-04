@@ -28,4 +28,4 @@ def relay(relaynum=0):
         GPIO.output(17,GPIO.LOW)  #GPIO OFF
         return 'TIme to feel sexy'
 
-run(host='IP ADDRESS OF PI OR PC RUNNING PROGRAM', port=1234) #Change to your IP address
+run(host='IP ADDRESS OF PI', port=1234) #Change to your IP address
