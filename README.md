@@ -6,6 +6,8 @@ First you need to make sure you pip install the following: bottle, RPi.GPIO, pyg
 
 Next you need to create a folder where your project will be. I named my folder GeorgeMichael. Put both the server.py and CarelessWhisper.wav in that folder
 
+Edit server.py with the ip address of your pi and the location of the .wav file. I added comments so it should be easy.
+
 Follow link provided for installation and signup of ngrok (https://www.dexterindustries.com/howto/access-your-raspberry-pi-from-outside-your-home-or-local-network/)
 
 Install IFTTT from google on your phone.
